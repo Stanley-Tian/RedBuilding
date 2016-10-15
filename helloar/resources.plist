@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>namecard</key>
+	<dict>
+		<key>name</key>
+		<string>故宫-午门</string>
+		<key>photo</key>
+		<string>午门.jpg</string>
+		<key>audio</key>
+		<string>麦芽糖</string>
+		<key>brief</key>
+		<string>午门建成于明朝永乐十八年（1420年）。清朝顺治四年（1647年）重修，嘉庆六年（1801年）再修。午门过去是颁发皇帝诏书之处。每年农历腊月初一，在午门举办颁布翌年历书的“颁朔”典礼。遇到重大战争，军队凯旋时，在午门举办向皇帝敬献战俘的“献俘礼”。明朝皇帝处罚大臣的“廷杖”也是在午门前举行。民间传说中有所谓“推出午门斩首”的说法，也是指午门前，但将此处作为杀人刑场是不可能发生的事情，这种民间传说并不符合史实。
+</string>
+	</dict>
+	<key>idback</key>
+	<dict>
+		<key>name</key>
+		<string>故宫-角楼</string>
+		<key>photo</key>
+		<string>角楼.jpg</string>
+		<key>audio</key>
+		<string>青花瓷</string>
+		<key>brief</key>
+		<string>紫禁城城墙四角各有一座造型非常奇特的角楼，有军事瞭望之用设计亦十分精巧，共有3层屋檐9梁18柱28个翼角72脊。角楼坐落于厚城墙之上四周围以汉白玉石栏杆，台基楼梯分上下两层。
+相传明成祖朱棣（1404─1424年）曾梦见一座9梁18柱72脊的角楼，并下令于9天之内照样设计，否则工匠便要杀头。工匠均想不到如何设计。就在这时有一老人手提个设计精巧的蝈蝈笼走过，该笼恰巧共9梁18柱72脊，匠人们灵机一触按这个蝈蝈笼设计了角楼，匠师们并认为老人就是鲁班师傅下凡指点。[1]
+后来明朝灭亡时李自成焚毁故宫，但是角楼并未被毁。</string>
+	</dict>
+	<key>tiananmen</key>
+	<string></string>
+	<key>jiaolou</key>
+	<string></string>
+</dict>
+</plist>

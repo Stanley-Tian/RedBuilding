@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B63CB5B1DB0D96900A687C5 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5A1DB0D96900A687C5 /* resources.plist */; };
+		1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */; };
+		1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5E1DB1AE4F00A687C5 /* play.png */; };
+		1B63CB631DB1C6B800A687C5 /* 青花瓷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */; };
+		1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39011DB1D1F500EB759D /* 午门.jpg */; };
+		1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */; };
 		1BB80B391DAE20B300703529 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB80B381DAE20B300703529 /* DetailViewController.swift */; };
 		F15BDCD41C03FEE200666121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15BDCD31C03FEE200666121 /* main.m */; };
 		F15BDCDD1C03FEE200666121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15BDCDB1C03FEE200666121 /* Main.storyboard */; };
@@ -34,6 +40,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B63CB5A1DB0D96900A687C5 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
+		1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "角楼.jpg"; sourceTree = "<group>"; };
+		1B63CB5E1DB1AE4F00A687C5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷.mp3"; sourceTree = "<group>"; };
+		1B6B39011DB1D1F500EB759D /* 午门.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "午门.jpg"; sourceTree = "<group>"; };
+		1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "麦芽糖.mp3"; sourceTree = "<group>"; };
 		1BB80B371DAE20B300703529 /* helloar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloar-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BB80B381DAE20B300703529 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F15BDCCF1C03FEE200666121 /* helloar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +146,7 @@
 				F15BDCD21C03FEE200666121 /* Supporting Files */,
 				1BB80B381DAE20B300703529 /* DetailViewController.swift */,
 				1BB80B371DAE20B300703529 /* helloar-Bridging-Header.h */,
+				1B63CB5A1DB0D96900A687C5 /* resources.plist */,
 			);
 			path = helloar;
 			sourceTree = "<group>";
@@ -141,6 +154,11 @@
 		F15BDCD21C03FEE200666121 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */,
+				1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */,
+				1B63CB5E1DB1AE4F00A687C5 /* play.png */,
+				1B6B39011DB1D1F500EB759D /* 午门.jpg */,
+				1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */,
 				F15BDCD31C03FEE200666121 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -218,11 +236,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */,
+				1B63CB631DB1C6B800A687C5 /* 青花瓷.mp3 in Resources */,
 				F1D13C251C0429E7008F72E2 /* namecard.jpg in Resources */,
 				F1D13C281C0429E7008F72E2 /* targets2.json in Resources */,
+				1B63CB5B1DB0D96900A687C5 /* resources.plist in Resources */,
 				F15BDCDF1C03FEE200666121 /* Assets.xcassets in Resources */,
+				1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */,
+				1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */,
 				F15BDCDD1C03FEE200666121 /* Main.storyboard in Resources */,
 				F1A7AA2C1C06CA330060ADF6 /* LaunchScreen.xib in Resources */,
+				1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */,
 				F1D13C261C0429E7008F72E2 /* sightplus in Resources */,
 				F1D13C271C0429E7008F72E2 /* targets.json in Resources */,
 				F1D13C241C0429E7008F72E2 /* idback.jpg in Resources */,

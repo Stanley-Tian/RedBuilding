@@ -18,6 +18,7 @@
     (void)application;
     (void)launchOptions;
     _active = true;
+
     return YES;
 }
 
