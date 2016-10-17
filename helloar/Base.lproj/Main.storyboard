@@ -49,7 +49,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-1V-oVs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-1V-oVs">
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Zav-1V-oVs" secondAttribute="height" multiplier="16:9" id="Y3k-gF-7jp"/>
                                 </constraints>

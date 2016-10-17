@@ -8,13 +8,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
     self.glView = [[OpenGLView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:self.glView];
     [self.glView setOrientation:self.interfaceOrientation];
-}
-
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
     [self.glView start];
 }
 

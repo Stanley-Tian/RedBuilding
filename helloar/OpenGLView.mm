@@ -180,11 +180,9 @@ EasyAR::samples::HelloAR ar;
 // 开始
 - (void)start{
     // 调用其ar所继承的父类的方法，设置一下下
+    
+    ar.loadAllFromJsonFile("targets.json");
     ar.initCamera();
-    ar.loadFromJsonFile("targets.json", "argame");
-    ar.loadFromJsonFile("targets.json", "idback");
-    ar.loadAllFromJsonFile("targets2.json");
-    ar.loadFromImage("namecard.jpg");
     ar.start();
     /* Create a new display link object for the main display. It will
      * invoke the method called 'sel' on 'target', the method has the
@@ -238,32 +236,22 @@ EasyAR::samples::HelloAR ar;
     id currentViewController = [self findTopViewController:WindowRootVC];
     
     return currentViewController;
-}/*
-- (NSString* )getTargetName{
-    return [self targetName];
 }
-  */
 - (void)displayLinkCallback:(CADisplayLink*)displayLink
 {
     if (!((AppDelegate*)[[UIApplication sharedApplication]delegate]).active)
         return;
     ar.render();
     if (ar.foundTargetName != ""){
-        //print("Target Found!!!")
         NSLog(@"Target Found!!! %s",ar.foundTargetName.c_str());
-        //[[NSRunLoop currentRunLoop] removePort:self.displayLink forMode:NSDefaultRunLoopMode];
-        //self.displayLink.paused = YES;
-        //[self performSegueWithIdentifier:@"" sender:self]
-        //ar.clear();
-        //return;
         
         self.targetName = [NSString stringWithFormat:@"%s", ar.foundTargetName.c_str()];
 
         ar.foundTargetName = "";
-        //self.displayLink = nil;
         [self stopDisplayLink];
         
         id currentVC = [self getCurrentViewController];
+        //id currentVC = [self findTopViewController:self];
         if (currentVC)
         {
             NSLog(@"currentVC :%@",currentVC);

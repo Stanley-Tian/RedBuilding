@@ -14,6 +14,14 @@
 		1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39011DB1D1F500EB759D /* 午门.jpg */; };
 		1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */; };
 		1BB80B391DAE20B300703529 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB80B381DAE20B300703529 /* DetailViewController.swift */; };
+		1BE5A4C61DB4BE5600263ECE /* tiananmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4C41DB4BE5600263ECE /* tiananmen.jpg */; };
+		1BE5A4C71DB4BE5600263ECE /* huabiao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4C51DB4BE5600263ECE /* huabiao.jpg */; };
+		1BE5A4CB1DB4BF2500263ECE /* 天安门.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4CA1DB4BF2500263ECE /* 天安门.jpg */; };
+		1BE5A4CD1DB4BFE500263ECE /* 华表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4CC1DB4BFE500263ECE /* 华表.jpg */; };
+		1BE5A4CF1DB4C48E00263ECE /* jiaolou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4CE1DB4C48E00263ECE /* jiaolou.jpg */; };
+		1BE5A4D11DB4C49C00263ECE /* wumen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4D01DB4C49C00263ECE /* wumen.jpg */; };
+		1BE5A4D31DB4CB4C00263ECE /* maozi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4D21DB4CB4C00263ECE /* maozi.jpg */; };
+		1BE5A4D51DB4CBB300263ECE /* 帽子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4D41DB4CBB300263ECE /* 帽子.jpg */; };
 		F15BDCD41C03FEE200666121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15BDCD31C03FEE200666121 /* main.m */; };
 		F15BDCDD1C03FEE200666121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15BDCDB1C03FEE200666121 /* Main.storyboard */; };
 		F15BDCDF1C03FEE200666121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15BDCDE1C03FEE200666121 /* Assets.xcassets */; };
@@ -33,10 +41,7 @@
 		F1D13C091C041E8D008F72E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C081C041E8D008F72E2 /* AVFoundation.framework */; };
 		F1D13C0B1C041EC5008F72E2 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C0A1C041EC5008F72E2 /* easyar.framework */; };
 		F1D13C241C0429E7008F72E2 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C1F1C0429E7008F72E2 /* idback.jpg */; };
-		F1D13C251C0429E7008F72E2 /* namecard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C201C0429E7008F72E2 /* namecard.jpg */; };
-		F1D13C261C0429E7008F72E2 /* sightplus in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C211C0429E7008F72E2 /* sightplus */; };
 		F1D13C271C0429E7008F72E2 /* targets.json in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C221C0429E7008F72E2 /* targets.json */; };
-		F1D13C281C0429E7008F72E2 /* targets2.json in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C231C0429E7008F72E2 /* targets2.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +53,14 @@
 		1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "麦芽糖.mp3"; sourceTree = "<group>"; };
 		1BB80B371DAE20B300703529 /* helloar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloar-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BB80B381DAE20B300703529 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1BE5A4C41DB4BE5600263ECE /* tiananmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiananmen.jpg; sourceTree = "<group>"; };
+		1BE5A4C51DB4BE5600263ECE /* huabiao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huabiao.jpg; sourceTree = "<group>"; };
+		1BE5A4CA1DB4BF2500263ECE /* 天安门.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天安门.jpg"; sourceTree = "<group>"; };
+		1BE5A4CC1DB4BFE500263ECE /* 华表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "华表.jpg"; sourceTree = "<group>"; };
+		1BE5A4CE1DB4C48E00263ECE /* jiaolou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jiaolou.jpg; sourceTree = "<group>"; };
+		1BE5A4D01DB4C49C00263ECE /* wumen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wumen.jpg; sourceTree = "<group>"; };
+		1BE5A4D21DB4CB4C00263ECE /* maozi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maozi.jpg; sourceTree = "<group>"; };
+		1BE5A4D41DB4CBB300263ECE /* 帽子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "帽子.jpg"; sourceTree = "<group>"; };
 		F15BDCCF1C03FEE200666121 /* helloar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15BDCD31C03FEE200666121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F15BDCDC1C03FEE200666121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,10 +87,7 @@
 		F1D13C081C041E8D008F72E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F1D13C0A1C041EC5008F72E2 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = easyar.framework; path = ../../package/iOS/easyar.framework; sourceTree = "<group>"; };
 		F1D13C1F1C0429E7008F72E2 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = idback.jpg; path = helloar/assets/idback.jpg; sourceTree = "<group>"; };
-		F1D13C201C0429E7008F72E2 /* namecard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = namecard.jpg; path = helloar/assets/namecard.jpg; sourceTree = "<group>"; };
-		F1D13C211C0429E7008F72E2 /* sightplus */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sightplus; path = helloar/assets/sightplus; sourceTree = "<group>"; };
 		F1D13C221C0429E7008F72E2 /* targets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = targets.json; path = helloar/assets/targets.json; sourceTree = "<group>"; };
-		F1D13C231C0429E7008F72E2 /* targets2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = targets2.json; path = helloar/assets/targets2.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,8 +167,11 @@
 				1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */,
 				1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */,
 				1B63CB5E1DB1AE4F00A687C5 /* play.png */,
+				1BE5A4CA1DB4BF2500263ECE /* 天安门.jpg */,
+				1BE5A4CC1DB4BFE500263ECE /* 华表.jpg */,
 				1B6B39011DB1D1F500EB759D /* 午门.jpg */,
 				1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */,
+				1BE5A4D41DB4CBB300263ECE /* 帽子.jpg */,
 				F15BDCD31C03FEE200666121 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -167,11 +180,13 @@
 		F1D13C291C042B87008F72E2 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				1BE5A4C41DB4BE5600263ECE /* tiananmen.jpg */,
+				1BE5A4C51DB4BE5600263ECE /* huabiao.jpg */,
 				F1D13C1F1C0429E7008F72E2 /* idback.jpg */,
-				F1D13C201C0429E7008F72E2 /* namecard.jpg */,
-				F1D13C211C0429E7008F72E2 /* sightplus */,
+				1BE5A4D01DB4C49C00263ECE /* wumen.jpg */,
+				1BE5A4CE1DB4C48E00263ECE /* jiaolou.jpg */,
+				1BE5A4D21DB4CB4C00263ECE /* maozi.jpg */,
 				F1D13C221C0429E7008F72E2 /* targets.json */,
-				F1D13C231C0429E7008F72E2 /* targets2.json */,
 			);
 			name = assets;
 			path = ..;
@@ -236,20 +251,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE5A4CF1DB4C48E00263ECE /* jiaolou.jpg in Resources */,
 				1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */,
 				1B63CB631DB1C6B800A687C5 /* 青花瓷.mp3 in Resources */,
-				F1D13C251C0429E7008F72E2 /* namecard.jpg in Resources */,
-				F1D13C281C0429E7008F72E2 /* targets2.json in Resources */,
+				1BE5A4CD1DB4BFE500263ECE /* 华表.jpg in Resources */,
+				1BE5A4CB1DB4BF2500263ECE /* 天安门.jpg in Resources */,
+				1BE5A4C71DB4BE5600263ECE /* huabiao.jpg in Resources */,
 				1B63CB5B1DB0D96900A687C5 /* resources.plist in Resources */,
+				1BE5A4D51DB4CBB300263ECE /* 帽子.jpg in Resources */,
 				F15BDCDF1C03FEE200666121 /* Assets.xcassets in Resources */,
 				1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */,
 				1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */,
 				F15BDCDD1C03FEE200666121 /* Main.storyboard in Resources */,
+				1BE5A4C61DB4BE5600263ECE /* tiananmen.jpg in Resources */,
 				F1A7AA2C1C06CA330060ADF6 /* LaunchScreen.xib in Resources */,
 				1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */,
-				F1D13C261C0429E7008F72E2 /* sightplus in Resources */,
 				F1D13C271C0429E7008F72E2 /* targets.json in Resources */,
 				F1D13C241C0429E7008F72E2 /* idback.jpg in Resources */,
+				1BE5A4D31DB4CB4C00263ECE /* maozi.jpg in Resources */,
+				1BE5A4D11DB4C49C00263ECE /* wumen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7VNR396R9U;
+				DEVELOPMENT_TEAM = 5TET7T7X2S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = ../../package/iOS;
 				INFOPLIST_FILE = helloar/Info.plist;
@@ -400,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 7VNR396R9U;
+				DEVELOPMENT_TEAM = 5TET7T7X2S;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = ../../package/iOS;
 				INFOPLIST_FILE = helloar/Info.plist;

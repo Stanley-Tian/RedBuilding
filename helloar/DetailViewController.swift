@@ -14,7 +14,7 @@ class DetailViewController: UIViewController {
     var isPlaying:Bool = false
     var audioPlayer = AVAudioPlayer()
     var timer:Timer!
-    
+    var targetError = false
     @IBOutlet weak var nameLabel: UILabel!
     var targetName:String?
     
@@ -32,14 +32,13 @@ class DetailViewController: UIViewController {
             audioPlayer.play()
             isPlaying = true
             playOrPauseButton.setImage(UIImage(named:"pause"), for: .normal)
-
         }
-        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //title = targetName
+        targetError = false
         nameLabel.text = targetName
         // Do any additional setup after loading the view.
         //PlistManager.sharedInstance.startPlistManager()
@@ -47,6 +46,13 @@ class DetailViewController: UIViewController {
         let plistName = "resources.plist"
         let finalPath = (path as NSString).appendingPathComponent(plistName) as NSString
         let cells = NSDictionary(contentsOfFile:finalPath as String)
+        
+        
+        if cells?[targetName!] == nil{
+            targetError = true
+            return
+        }
+ 
         let currentTarget = cells?[targetName!] as! NSDictionary
 
         self.title = currentTarget.object(forKey: "name") as? String
