@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B27E47A1DEABC16005E1A36 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B27E4791DEABC16005E1A36 /* easyar.framework */; };
+		1B27E47C1DEABDC3005E1A36 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B27E47B1DEABDC3005E1A36 /* easyar.framework */; };
 		1B63CB5B1DB0D96900A687C5 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5A1DB0D96900A687C5 /* resources.plist */; };
 		1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */; };
 		1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5E1DB1AE4F00A687C5 /* play.png */; };
@@ -39,12 +41,13 @@
 		F1D13C051C041E7C008F72E2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C041C041E7C008F72E2 /* CoreImage.framework */; };
 		F1D13C071C041E85008F72E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C061C041E85008F72E2 /* CoreGraphics.framework */; };
 		F1D13C091C041E8D008F72E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C081C041E8D008F72E2 /* AVFoundation.framework */; };
-		F1D13C0B1C041EC5008F72E2 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C0A1C041EC5008F72E2 /* easyar.framework */; };
 		F1D13C241C0429E7008F72E2 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C1F1C0429E7008F72E2 /* idback.jpg */; };
 		F1D13C271C0429E7008F72E2 /* targets.json in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C221C0429E7008F72E2 /* targets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B27E4791DEABC16005E1A36 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = easyar.framework; path = ../learning/iOS/EasyARSDKSamples/package/iOS/easyar.framework; sourceTree = "<group>"; };
+		1B27E47B1DEABDC3005E1A36 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = easyar.framework; sourceTree = "<group>"; };
 		1B63CB5A1DB0D96900A687C5 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
 		1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "角楼.jpg"; sourceTree = "<group>"; };
 		1B63CB5E1DB1AE4F00A687C5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
@@ -85,7 +88,6 @@
 		F1D13C041C041E7C008F72E2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		F1D13C061C041E85008F72E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F1D13C081C041E8D008F72E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F1D13C0A1C041EC5008F72E2 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = easyar.framework; path = ../../package/iOS/easyar.framework; sourceTree = "<group>"; };
 		F1D13C1F1C0429E7008F72E2 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = idback.jpg; path = helloar/assets/idback.jpg; sourceTree = "<group>"; };
 		F1D13C221C0429E7008F72E2 /* targets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = targets.json; path = helloar/assets/targets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +97,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D13C0B1C041EC5008F72E2 /* easyar.framework in Frameworks */,
 				F1D13C091C041E8D008F72E2 /* AVFoundation.framework in Frameworks */,
 				F1D13C071C041E85008F72E2 /* CoreGraphics.framework in Frameworks */,
 				F1D13C051C041E7C008F72E2 /* CoreImage.framework in Frameworks */,
@@ -104,16 +105,26 @@
 				F1D13BFF1C041E55008F72E2 /* OpenGLES.framework in Frameworks */,
 				F1D13BFD1C041E4D008F72E2 /* QuartzCore.framework in Frameworks */,
 				F1D13BFB1C041E38008F72E2 /* UIKit.framework in Frameworks */,
+				1B27E47A1DEABC16005E1A36 /* easyar.framework in Frameworks */,
+				1B27E47C1DEABDC3005E1A36 /* easyar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B27E4781DEABC16005E1A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B27E4791DEABC16005E1A36 /* easyar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F15BDCC61C03FEE200666121 = {
 			isa = PBXGroup;
 			children = (
-				F1D13C0A1C041EC5008F72E2 /* easyar.framework */,
+				1B27E47B1DEABDC3005E1A36 /* easyar.framework */,
 				F1D13C081C041E8D008F72E2 /* AVFoundation.framework */,
 				F1D13C061C041E85008F72E2 /* CoreGraphics.framework */,
 				F1D13C041C041E7C008F72E2 /* CoreImage.framework */,
@@ -124,6 +135,7 @@
 				F1D13BFA1C041E38008F72E2 /* UIKit.framework */,
 				F15BDCD11C03FEE200666121 /* helloar */,
 				F15BDCD01C03FEE200666121 /* Products */,
+				1B27E4781DEABC16005E1A36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -402,7 +414,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5TET7T7X2S;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = ../../package/iOS;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/helloar",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = helloar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,7 +439,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 5TET7T7X2S;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = ../../package/iOS;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/helloar",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = helloar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
