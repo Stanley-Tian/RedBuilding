@@ -256,7 +256,8 @@ EasyAR::samples::HelloAR ar;
         {
             NSLog(@"currentVC :%@",currentVC);
         }
-        [currentVC performSegueWithIdentifier:@"showDetailSegue" sender:self];
+        // 选择要跳转的segue
+        [currentVC performSegueWithIdentifier:@"showH5DetailSegue" sender:self];
         
     }
     (void)displayLink;

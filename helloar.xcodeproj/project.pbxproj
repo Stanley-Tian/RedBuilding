@@ -13,6 +13,7 @@
 		1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */; };
 		1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5E1DB1AE4F00A687C5 /* play.png */; };
 		1B63CB631DB1C6B800A687C5 /* 青花瓷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */; };
+		1B67258F1DF675F200A9C7F5 /* DetailH5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B67258E1DF675F200A9C7F5 /* DetailH5ViewController.swift */; };
 		1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39011DB1D1F500EB759D /* 午门.jpg */; };
 		1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */; };
 		1BB80B391DAE20B300703529 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB80B381DAE20B300703529 /* DetailViewController.swift */; };
@@ -52,6 +53,7 @@
 		1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "角楼.jpg"; sourceTree = "<group>"; };
 		1B63CB5E1DB1AE4F00A687C5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷.mp3"; sourceTree = "<group>"; };
+		1B67258E1DF675F200A9C7F5 /* DetailH5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailH5ViewController.swift; sourceTree = "<group>"; };
 		1B6B39011DB1D1F500EB759D /* 午门.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "午门.jpg"; sourceTree = "<group>"; };
 		1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "麦芽糖.mp3"; sourceTree = "<group>"; };
 		1BB80B371DAE20B300703529 /* helloar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloar-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 				1BB80B381DAE20B300703529 /* DetailViewController.swift */,
 				1BB80B371DAE20B300703529 /* helloar-Bridging-Header.h */,
 				1B63CB5A1DB0D96900A687C5 /* resources.plist */,
+				1B67258E1DF675F200A9C7F5 /* DetailH5ViewController.swift */,
 			);
 			path = helloar;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				F1D13BD01C0405F5008F72E2 /* renderer.cc in Sources */,
 				F1D13BCF1C0405F5008F72E2 /* OpenGLView.mm in Sources */,
 				F15BDCD41C03FEE200666121 /* main.m in Sources */,
+				1B67258F1DF675F200A9C7F5 /* DetailH5ViewController.swift in Sources */,
 				1BB80B391DAE20B300703529 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

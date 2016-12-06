@@ -26,11 +26,12 @@
                     </view>
                     <connections>
                         <segue destination="HKr-jV-tV4" kind="show" identifier="showDetailSegue" id="gXZ-Q1-XsX"/>
+                        <segue destination="DnO-90-14o" kind="show" identifier="showH5DetailSegue" action="showDetailViewController:sender:" id="ArG-qT-8Rc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930" y="36"/>
+            <point key="canvasLocation" x="444" y="516"/>
         </scene>
         <!--详情-->
         <scene sceneID="p0p-pw-8AX">
@@ -115,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="2836" y="36.431784107946029"/>
         </scene>
-        <!--View Controller-->
+        <!--DetailH5 View Controller-->
         <scene sceneID="nmG-r0-TvK">
             <objects>
-                <viewController id="2K3-zd-jTN" sceneMemberID="viewController">
+                <viewController id="2K3-zd-jTN" customClass="DetailH5ViewController" customModule="helloar" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4yj-Wn-Kn0"/>
                         <viewControllerLayoutGuide type="bottom" id="J2P-Fm-klV"/>
@@ -127,18 +128,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gu4-13-Sh8">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2gy-V5-Os4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2gy-V5-Os4" firstAttribute="leading" secondItem="NmH-hx-DL6" secondAttribute="leading" id="aOb-oV-62T"/>
+                            <constraint firstAttribute="trailing" secondItem="2gy-V5-Os4" secondAttribute="trailing" id="afN-cK-iw7"/>
+                            <constraint firstItem="J2P-Fm-klV" firstAttribute="top" secondItem="2gy-V5-Os4" secondAttribute="bottom" id="ltB-DO-oPS"/>
+                            <constraint firstItem="2gy-V5-Os4" firstAttribute="top" secondItem="NmH-hx-DL6" secondAttribute="top" id="yMa-il-cd4"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="SOm-Ba-3Nl"/>
+                    <connections>
+                        <outlet property="mainWebView" destination="2gy-V5-Os4" id="Vcs-Ot-Drl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVw-sn-9Bg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3594.4000000000001" y="36.431784107946029"/>
+            <point key="canvasLocation" x="2860" y="975.56221889055485"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="S16-u3-ges">
@@ -157,6 +167,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jOU-43-igT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1896.8" y="36.431784107946029"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="T2g-mw-USg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DnO-90-14o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ebg-ee-3RC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2K3-zd-jTN" kind="relationship" relationship="rootViewController" id="iiw-3e-dKY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKc-Xh-off" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="976"/>
         </scene>
     </scenes>
     <resources>

@@ -1,5 +1,5 @@
 #import "ViewController.h"
-#import "helloar-Swift.h"
+#import "helloar-Swift.h" // 混编用
 @interface ViewController ()
 
 @end
@@ -32,9 +32,12 @@
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
     [self.glView setOrientation:toInterfaceOrientation];
 }
+// 跳转到详情页面
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    if ([segue.identifier  isEqual: @"showDetailSegue"]){
+    if ([segue.identifier  isEqual: @"showH5DetailSegue"]){
         UINavigationController * naviVC = [segue destinationViewController];
+        // DetailViewController 这个类在helloar-Swift.h这个文件里面自动生成了
+        //  swift接口的桥接,至此oc页面可以跳转到swift页面
         DetailViewController * destinationVC = [[naviVC viewControllers] lastObject];
         
         [destinationVC setTargetName:[(OpenGLView *)sender targetName]];
