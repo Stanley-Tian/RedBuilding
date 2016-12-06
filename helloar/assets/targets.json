@@ -2,30 +2,13 @@
     "images" :
     [
      {
-     "image" : "idback.jpg",
-     "name" : "idback",
-     "size" : [8.56, 5.4],
-     "uid" : "uid-string"
+     "image" : "oneA.jpg",
+     "name" : "http://ophrys.com.cn:8081/recogServer/Recog?method=findcontent&id=1&checkcode=checkcode"
      },
      {
-     "image" : "tiananmen.jpg",
-     "name" : "tiananmen"
-     },
-     {
-     "image" : "huabiao.jpg",
-     "name" : "huabiao"
-     },
-     {
-     "image" : "wumen.jpg",
-     "name" : "wumen"
-     },
-     {
-     "image" : "jiaolou.jpg",
-     "name" : "jiaolou"
-     },
-     {
-     "image" : "maozi.jpg",
-     "name" : "maozi"
+     "image" : "oneB.jpg",
+     "name" : "http://ophrys.com.cn:8081/recogServer/Recog?method=findcontent&id=2&checkcode=checkcode"
      }
      ]
 }
+

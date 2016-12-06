@@ -10,21 +10,11 @@
 		1B27E47A1DEABC16005E1A36 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B27E4791DEABC16005E1A36 /* easyar.framework */; };
 		1B27E47C1DEABDC3005E1A36 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B27E47B1DEABDC3005E1A36 /* easyar.framework */; };
 		1B63CB5B1DB0D96900A687C5 /* resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5A1DB0D96900A687C5 /* resources.plist */; };
-		1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */; };
 		1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB5E1DB1AE4F00A687C5 /* play.png */; };
-		1B63CB631DB1C6B800A687C5 /* 青花瓷.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */; };
 		1B67258F1DF675F200A9C7F5 /* DetailH5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B67258E1DF675F200A9C7F5 /* DetailH5ViewController.swift */; };
-		1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39011DB1D1F500EB759D /* 午门.jpg */; };
-		1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */; };
+		1B6725911DF6804400A9C7F5 /* oneA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B6725901DF6804400A9C7F5 /* oneA.jpg */; };
+		1B6725931DF6804C00A9C7F5 /* oneB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B6725921DF6804C00A9C7F5 /* oneB.jpg */; };
 		1BB80B391DAE20B300703529 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB80B381DAE20B300703529 /* DetailViewController.swift */; };
-		1BE5A4C61DB4BE5600263ECE /* tiananmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4C41DB4BE5600263ECE /* tiananmen.jpg */; };
-		1BE5A4C71DB4BE5600263ECE /* huabiao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4C51DB4BE5600263ECE /* huabiao.jpg */; };
-		1BE5A4CB1DB4BF2500263ECE /* 天安门.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4CA1DB4BF2500263ECE /* 天安门.jpg */; };
-		1BE5A4CD1DB4BFE500263ECE /* 华表.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4CC1DB4BFE500263ECE /* 华表.jpg */; };
-		1BE5A4CF1DB4C48E00263ECE /* jiaolou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4CE1DB4C48E00263ECE /* jiaolou.jpg */; };
-		1BE5A4D11DB4C49C00263ECE /* wumen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4D01DB4C49C00263ECE /* wumen.jpg */; };
-		1BE5A4D31DB4CB4C00263ECE /* maozi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4D21DB4CB4C00263ECE /* maozi.jpg */; };
-		1BE5A4D51DB4CBB300263ECE /* 帽子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BE5A4D41DB4CBB300263ECE /* 帽子.jpg */; };
 		F15BDCD41C03FEE200666121 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F15BDCD31C03FEE200666121 /* main.m */; };
 		F15BDCDD1C03FEE200666121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15BDCDB1C03FEE200666121 /* Main.storyboard */; };
 		F15BDCDF1C03FEE200666121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15BDCDE1C03FEE200666121 /* Assets.xcassets */; };
@@ -42,7 +32,6 @@
 		F1D13C051C041E7C008F72E2 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C041C041E7C008F72E2 /* CoreImage.framework */; };
 		F1D13C071C041E85008F72E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C061C041E85008F72E2 /* CoreGraphics.framework */; };
 		F1D13C091C041E8D008F72E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D13C081C041E8D008F72E2 /* AVFoundation.framework */; };
-		F1D13C241C0429E7008F72E2 /* idback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C1F1C0429E7008F72E2 /* idback.jpg */; };
 		F1D13C271C0429E7008F72E2 /* targets.json in Resources */ = {isa = PBXBuildFile; fileRef = F1D13C221C0429E7008F72E2 /* targets.json */; };
 /* End PBXBuildFile section */
 
@@ -50,22 +39,12 @@
 		1B27E4791DEABC16005E1A36 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = easyar.framework; path = ../learning/iOS/EasyARSDKSamples/package/iOS/easyar.framework; sourceTree = "<group>"; };
 		1B27E47B1DEABDC3005E1A36 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = easyar.framework; sourceTree = "<group>"; };
 		1B63CB5A1DB0D96900A687C5 /* resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = resources.plist; sourceTree = "<group>"; };
-		1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "角楼.jpg"; sourceTree = "<group>"; };
 		1B63CB5E1DB1AE4F00A687C5 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "青花瓷.mp3"; sourceTree = "<group>"; };
 		1B67258E1DF675F200A9C7F5 /* DetailH5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailH5ViewController.swift; sourceTree = "<group>"; };
-		1B6B39011DB1D1F500EB759D /* 午门.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "午门.jpg"; sourceTree = "<group>"; };
-		1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "麦芽糖.mp3"; sourceTree = "<group>"; };
+		1B6725901DF6804400A9C7F5 /* oneA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneA.jpg; sourceTree = "<group>"; };
+		1B6725921DF6804C00A9C7F5 /* oneB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oneB.jpg; sourceTree = "<group>"; };
 		1BB80B371DAE20B300703529 /* helloar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloar-Bridging-Header.h"; sourceTree = "<group>"; };
 		1BB80B381DAE20B300703529 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		1BE5A4C41DB4BE5600263ECE /* tiananmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiananmen.jpg; sourceTree = "<group>"; };
-		1BE5A4C51DB4BE5600263ECE /* huabiao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huabiao.jpg; sourceTree = "<group>"; };
-		1BE5A4CA1DB4BF2500263ECE /* 天安门.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天安门.jpg"; sourceTree = "<group>"; };
-		1BE5A4CC1DB4BFE500263ECE /* 华表.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "华表.jpg"; sourceTree = "<group>"; };
-		1BE5A4CE1DB4C48E00263ECE /* jiaolou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jiaolou.jpg; sourceTree = "<group>"; };
-		1BE5A4D01DB4C49C00263ECE /* wumen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wumen.jpg; sourceTree = "<group>"; };
-		1BE5A4D21DB4CB4C00263ECE /* maozi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maozi.jpg; sourceTree = "<group>"; };
-		1BE5A4D41DB4CBB300263ECE /* 帽子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "帽子.jpg"; sourceTree = "<group>"; };
 		F15BDCCF1C03FEE200666121 /* helloar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15BDCD31C03FEE200666121 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F15BDCDC1C03FEE200666121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,7 +69,6 @@
 		F1D13C041C041E7C008F72E2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		F1D13C061C041E85008F72E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F1D13C081C041E8D008F72E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F1D13C1F1C0429E7008F72E2 /* idback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = idback.jpg; path = helloar/assets/idback.jpg; sourceTree = "<group>"; };
 		F1D13C221C0429E7008F72E2 /* targets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = targets.json; path = helloar/assets/targets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,14 +157,7 @@
 		F15BDCD21C03FEE200666121 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B63CB621DB1C6B800A687C5 /* 青花瓷.mp3 */,
-				1B6B39031DB1D22B00EB759D /* 麦芽糖.mp3 */,
 				1B63CB5E1DB1AE4F00A687C5 /* play.png */,
-				1BE5A4CA1DB4BF2500263ECE /* 天安门.jpg */,
-				1BE5A4CC1DB4BFE500263ECE /* 华表.jpg */,
-				1B6B39011DB1D1F500EB759D /* 午门.jpg */,
-				1B63CB5C1DB0DA1500A687C5 /* 角楼.jpg */,
-				1BE5A4D41DB4CBB300263ECE /* 帽子.jpg */,
 				F15BDCD31C03FEE200666121 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -195,12 +166,8 @@
 		F1D13C291C042B87008F72E2 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				1BE5A4C41DB4BE5600263ECE /* tiananmen.jpg */,
-				1BE5A4C51DB4BE5600263ECE /* huabiao.jpg */,
-				F1D13C1F1C0429E7008F72E2 /* idback.jpg */,
-				1BE5A4D01DB4C49C00263ECE /* wumen.jpg */,
-				1BE5A4CE1DB4C48E00263ECE /* jiaolou.jpg */,
-				1BE5A4D21DB4CB4C00263ECE /* maozi.jpg */,
+				1B6725901DF6804400A9C7F5 /* oneA.jpg */,
+				1B6725921DF6804C00A9C7F5 /* oneB.jpg */,
 				F1D13C221C0429E7008F72E2 /* targets.json */,
 			);
 			name = assets;
@@ -266,25 +233,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BE5A4CF1DB4C48E00263ECE /* jiaolou.jpg in Resources */,
-				1B6B39021DB1D1F500EB759D /* 午门.jpg in Resources */,
-				1B63CB631DB1C6B800A687C5 /* 青花瓷.mp3 in Resources */,
-				1BE5A4CD1DB4BFE500263ECE /* 华表.jpg in Resources */,
-				1BE5A4CB1DB4BF2500263ECE /* 天安门.jpg in Resources */,
-				1BE5A4C71DB4BE5600263ECE /* huabiao.jpg in Resources */,
+				1B6725931DF6804C00A9C7F5 /* oneB.jpg in Resources */,
+				1B6725911DF6804400A9C7F5 /* oneA.jpg in Resources */,
 				1B63CB5B1DB0D96900A687C5 /* resources.plist in Resources */,
-				1BE5A4D51DB4CBB300263ECE /* 帽子.jpg in Resources */,
 				F15BDCDF1C03FEE200666121 /* Assets.xcassets in Resources */,
-				1B63CB5D1DB0DA1500A687C5 /* 角楼.jpg in Resources */,
 				1B63CB5F1DB1AE4F00A687C5 /* play.png in Resources */,
 				F15BDCDD1C03FEE200666121 /* Main.storyboard in Resources */,
-				1BE5A4C61DB4BE5600263ECE /* tiananmen.jpg in Resources */,
 				F1A7AA2C1C06CA330060ADF6 /* LaunchScreen.xib in Resources */,
-				1B6B39041DB1D22B00EB759D /* 麦芽糖.mp3 in Resources */,
 				F1D13C271C0429E7008F72E2 /* targets.json in Resources */,
-				F1D13C241C0429E7008F72E2 /* idback.jpg in Resources */,
-				1BE5A4D31DB4CB4C00263ECE /* maozi.jpg in Resources */,
-				1BE5A4D11DB4C49C00263ECE /* wumen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +382,7 @@
 				INFOPLIST_FILE = helloar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tmt.ar666;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmt.realityscan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "helloar/helloar-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -451,7 +407,7 @@
 				INFOPLIST_FILE = helloar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tmt.ar666;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmt.realityscan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "helloar/helloar-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

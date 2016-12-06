@@ -20,7 +20,7 @@
  *  3. find the created item in the list and show key
  *  4. set key string bellow
  */
-NSString* key = @"mt3AUTxXDPAQwXvvd1DeCjDeE9A10nN8zO4l9HijCb1HSugNpu5PXy68PMTsXBbaMBHEfxlkmZl3RSaKi2gh1KC7Eb8UluyhPZ3284cfc47e37852e25eaf95ac744ff8fc2F7hQE9j3sIHpwmTJc5C6sAx2V9Wi81GE3kJSZFQibfiZeANUIjNb7qCV5PM9aOt0MPpd";
+NSString* key = @"c158EgyVovqKmMV2xicUSqXi50ODhSyK7SOVpoLgpn22BAqRxJC6VVavnqEOetPAJQyeumCzRnBWVoZHgat4ueqzP1WME0V7L3nxb034ecda83c4c3cbfd9c4b03b9f1307fjtqqt0uEYCgqIeLl0MKmC51CcL7zFK60MenOUCTHGwwRke0Ttk1Ye7HyS7DmA8ynY8rz";
 
 namespace EasyAR{
     namespace samples{

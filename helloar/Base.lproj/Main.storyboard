@@ -116,7 +116,7 @@
             </objects>
             <point key="canvasLocation" x="2836" y="36.431784107946029"/>
         </scene>
-        <!--DetailH5 View Controller-->
+        <!--Title-->
         <scene sceneID="nmG-r0-TvK">
             <objects>
                 <viewController id="2K3-zd-jTN" customClass="DetailH5ViewController" customModule="helloar" customModuleProvider="target" sceneMemberID="viewController">
@@ -141,12 +141,19 @@
                             <constraint firstItem="2gy-V5-Os4" firstAttribute="top" secondItem="NmH-hx-DL6" secondAttribute="top" id="yMa-il-cd4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="SOm-Ba-3Nl"/>
+                    <navigationItem key="navigationItem" title="Title" id="QlR-oe-LaF">
+                        <barButtonItem key="leftBarButtonItem" title="返回" id="Vsq-FC-3du">
+                            <connections>
+                                <segue destination="Oc4-2e-scR" kind="unwind" unwindAction="unwindSegueToViewController:" id="drR-l1-A5A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mainWebView" destination="2gy-V5-Os4" id="Vcs-Ot-Drl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VVw-sn-9Bg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="Oc4-2e-scR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2860" y="975.56221889055485"/>
         </scene>

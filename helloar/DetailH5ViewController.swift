@@ -16,11 +16,11 @@ class DetailH5ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        let myurl = URL(string: "https://www.baidu.com")
+        print(targetName!)
+        let myurl = URL(string: targetName!)
         let requestObj = URLRequest(url: myurl!)
         mainWebView.loadRequest(requestObj)
-        print(targetName!)
+       
     }
 
     override func didReceiveMemoryWarning() {
