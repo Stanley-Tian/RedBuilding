@@ -10,6 +10,8 @@
 @interface ViewController : UIViewController
 
 @property(nonatomic, strong) OpenGLView *glView;
+@property(nonatomic, weak) UITextView *infoTextView;
+@property(nonatomic, weak) UILabel *infoLabel;
 
 @end
 

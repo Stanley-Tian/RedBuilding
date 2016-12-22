@@ -15,8 +15,12 @@
     [super viewWillAppear:animated];
     self.glView = [[OpenGLView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:self.glView];
+    [self.view sendSubviewToBack:self.glView];
     [self.glView setOrientation:self.interfaceOrientation];
     [self.glView start];
+    
+    //[self addInfo];
+
 }
 
 - (void)viewWillDisappear:(BOOL)animated{
@@ -45,5 +49,12 @@
 }
 - (IBAction)unwindSegueToViewController:(UIStoryboardSegue *)segue {
     
+}
+
+- (void)addInfo{
+    UILabel *myLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 200, 40)];
+    [myLabel setBackgroundColor:[UIColor grayColor]];
+    [myLabel setText:@"请扫描展品边上的二维码"];
+    [self.view addSubview:myLabel];
 }
 @end
